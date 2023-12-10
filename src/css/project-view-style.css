@@ -53,3 +53,87 @@ a {
     font-size: 25px;
     
 }
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+.project-container {
+    width: 950px;
+    height: 380px;
+    margin: auto;
+}
+
+.project-view {
+    width: 950px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.project-container h2{
+    margin-top: 4rem;
+    font-size: 25px;
+    font-family: var(--main-font);
+    font-weight: 200;
+}
+
+.project-picture img{
+    width:500px;
+    margin-top: 1rem;
+    border-radius: 25px;
+}
+
+.project-picture {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.project-detail {
+    float: right;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    width: 300px;
+}
+
+.details li {
+    font-size: 18px;
+    list-style: square;
+}
+
+.details ul {
+    padding-left: 1.5rem ;
+}
+
+
+.discription p {
+    margin-top: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    border-radius: 10px;
+    background-color: #8A817C;
+    border-style: none;
+    cursor: pointer;
+}
