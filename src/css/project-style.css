@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,400&display=swap');
+:root {
+    --main-font: 'Kanit', sans-serif; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--main-font);
+}
+
+h1 {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navBar {
+    display: flex; 
+    align-items: center;
+    height: 50px;
+    padding: 10px 10rem 10px 10rem;
+    background-color: #F4F3EE;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin-left: auto;
+    
+}
+
+.navBar li{
+    display: inline;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navBar h1 li {
+    font-size: 25px;
+    
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.project-container h2 {
+    float: left;
+    padding-left: 9rem;
+    font-family: var(--main-font);
+    font-weight: 200;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card img{
+    width:750px;
+    margin-top: 1rem;
+    border-radius: 25px;
+}
+
+.button-container {
+    padding: 2rem;
+}
+
+.button-container.left {
+    justify-content: flex-start;
+}
+
+.button-container.right {
+    justify-content: flex-end;
+}
+
+.button-container img{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.discription {
+    margin-top: 2rem;
+}
+
+.bottom-ul li {
+    list-style: square;
+    margin-left: 10.3rem;
+    font-size: 1.2rem;
+}

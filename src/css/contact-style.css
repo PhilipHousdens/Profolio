@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,400&display=swap');
+:root {
+    --main-font: 'Kanit', sans-serif; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--main-font);
+}
+
+h1 {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navBar {
+    display: flex; 
+    align-items: center;
+    height: 50px;
+    padding: 10px 10rem 10px 10rem;
+    background-color: #F4F3EE;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin-left: auto;
+    
+}
+
+.navBar li{
+    display: inline;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navBar h1 li {
+    font-size: 25px;
+    
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-detail h2{
+    margin-top: 4rem;
+    font-size: 25px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-style: italic;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+}
+
+.contact-item {
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.contact-item.left {
+    float: left;
+}
+
+.contact-item.right { 
+    float: right;
+    margin-right: 5rem;
+}
+
+.contact-item img {
+    width: 30px;
+    margin-right: 1rem;
+    
+}
